@@ -19,4 +19,4 @@ React Mini Blog는 React를 사용하여 구축된 간단한 블로그 애플리
 ### 만든이유
 
 router를 사용해보고, styled-components라는 라이브러리를 사용한 CSS-in-JS 스타일을 사용해 보기 위함입니다.
-또한 간단한 CRUD를 구현해 보고자 만들어 봤습니다.
+또한 간단한 CRUD를 구현해 보고자 만들어 봤습니다..
