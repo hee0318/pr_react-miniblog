@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# React Mini Blog 📋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 개요
 
-## Available Scripts
+React Mini Blog는 React를 사용하여 구축된 간단한 블로그 애플리케이션입니다. 사용자가 블로그 게시물을 생성, 읽기, 수정 및 삭제할 수 있습니다.
 
-In the project directory, you can run:
+## 사용된 라이브러리
 
-### `npm start`
+- **React**: 사용자 인터페이스를 구축하기 위한 핵심 라이브러리입니다.
+- **React-DOM**: DOM과 상호 작용할 수 있는 DOM 관련 메서드를 제공합니다.
+- **React-Router-DOM**: 페이지 간의 라우팅을 가능하게 합니다.
+- **Styled-Components**: 컴포넌트에 스코프된 CSS를 적용합니다.
+- **React-Scripts**: Create React App에서 사용하는 스크립트와 설정입니다.
+- **@testing-library/jest-dom**: DOM 노드에 대한 커스텀 Jest 매처를 제공합니다.
+- **@testing-library/react**: React 컴포넌트를 테스트하기 위한 도구입니다.
+- **@testing-library/user-event**: 사용자 상호 작용을 시뮬레이션하는 유틸리티를 제공합니다.
+- **Web-Vitals**: 애플리케이션의 성능을 측정합니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 만든이유
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+router를 사용해보고, styled-components라는 라이브러리를 사용한 CSS-in-JS 스타일을 사용해 보기 위함입니다.
+또한 간단한 CRUD를 구현해 보고자 만들어 봤습니다.
